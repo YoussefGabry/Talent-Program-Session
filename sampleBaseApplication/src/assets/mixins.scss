@@ -1,0 +1,447 @@
+//-Search for typography before adding new
+//-Please follow the alphabetical sorting
+//-Make sure to add the new typography in the class in typography.scss
+//-Please follow the names on figma
+
+@mixin button-l {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+@mixin button-m {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+}
+
+@mixin button-m-light {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  text-align: center;
+}
+
+@mixin button-m{
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  text-align: center;
+}
+
+@mixin headline-m {
+  font-family: var(--main-font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px; /* 141.667% */
+  letter-spacing: -0.48px;
+  text-align: start;
+}
+
+@mixin headline-primary-m {
+  font-family: var(--main-font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -0.48px;
+  text-align: start;
+}
+
+@mixin headline-primary-s {
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin headline-primary-xs {
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin headline-primary-2xs {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin headline-primary-xl {
+  font-family: var(--main-font-family);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  /* 120% */
+  letter-spacing: -1.2px;
+  text-align: start;
+}
+
+@mixin headline-secondary-s {
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: start;
+}
+
+@mixin headline-serif-s {
+  font-family: var(--title-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: start;
+}
+
+@mixin headline-serif-m {
+  font-family: var(--title-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  text-align: start;
+}
+
+@mixin headline-serif-l {
+  font-family: var(--title-font-family);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.84px;
+  text-align: start;
+}
+
+@mixin headline-serif-xl {
+  font-family: var(--title-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  text-align: start;
+}
+
+@mixin headline-serif-xs {
+  font-family: var(--title-font-family);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: start;
+}
+
+@mixin headline-serif-primary-l {
+  font-family: var(--title-font-family);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  text-align: start;
+}
+
+@mixin headline-serif-primary-xl {
+  font-family: var(--title-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  text-align: start;
+}
+
+@mixin headline-serif-primary-s {
+  font-family: var(--title-font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+  text-align: start;
+}
+
+@mixin headline-xl {
+  font-family: var(--main-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  text-align: start;
+}
+
+@mixin headline-l {
+  font-family: var(--main-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  text-align: start;
+}
+
+@mixin headline-m {
+  font-family: var(--main-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+  text-align: start;
+}
+
+@mixin headline-s {
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin headline-xs {
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.36px;
+  text-align: start;
+}
+
+@mixin headline-2xs {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin headline-2xs {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: start;
+}
+
+@mixin input-content-big {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: start;
+}
+
+@mixin input-content-small {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: start;
+}
+
+@mixin input-label {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: start;
+}
+
+@mixin input-hint {
+  font-family: var(--main-font-family);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  font-feature-settings: 'clig' off, 'liga' off;
+  text-align: start;
+}
+
+@mixin label-m {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: start;
+}
+
+@mixin paragraph-medium-xl {
+  font-family: var(--main-font-family);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: start;
+}
+
+@mixin paragraph-medium-l {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-regular-l {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-regular-m {
+  font-family: var(--main-font-family);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: start;
+}
+
+@mixin paragraph-regular-s {
+  font-family: var(--main-font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-regular-xs {
+  font-family: var(--main-font-family);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-regular-m {
+  font-family: var(--main-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-regular-l {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-regular-xl {
+  font-family: var(--main-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-semibold-xs {
+  font-family: var(--main-font-family);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: start;
+}
+
+@mixin paragraph-semibold-s {
+  font-family: var(--main-font-family);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-regular-m {
+  font-family: var(--main-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-semibold-m {
+  font-family: var(--main-font-family);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-semibold-l {
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: start;
+}
+
+@mixin paragraph-semibold-xl {
+  font-family: var(--main-font-family);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+@mixin Headline-2XS{
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: start;
+}
+
+@mixin paragraph-medium-s {
+  font-family: var(--main-font-family);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: start;
+}
