@@ -1,0 +1,8 @@
+<div class="body" fxLayout="column" fxLayoutGap="14px">
+    <div *ngIf="!isLoading" fxLayout="column" fxLayoutGap="14px">
+        <div *ngFor="let toDo of toDoList">
+            <app-to-do-item [toDo]="toDo"></app-to-do-item>
+        </div>
+    </div>
+    <button class="see-more-btn" (click)="seeMore()">See More</button>
+</div>

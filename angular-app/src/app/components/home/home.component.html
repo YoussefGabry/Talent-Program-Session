@@ -1,0 +1,7 @@
+<div class="body" fxLayout="column" fxLayoutGap="14px">
+    <div class="greeting">WELCOME TO THE TO DO LIST</div>
+    <!-- <mat-divider></mat-divider> -->
+    <!-- <mat-spinner *ngIf="isLoading"></mat-spinner> -->
+    <app-to-do-item [toDo]="firstToDo" *ngIf="!isLoading"></app-to-do-item>
+    <button class="see-more-btn" (click)="seeMore()">See More</button>
+</div>

@@ -1,3 +1,8 @@
 # Node.js dependencies
 node_modules/
 package-lock.json
+
+# Angular specific files
+.angular/
+.angular/cache/
+.angular/local/
